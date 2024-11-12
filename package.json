@@ -1,0 +1,25 @@
+{
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "electron": "^33.0.2",
+    "markdownlint": "^0.36.1"
+  },
+  "dependencies": {
+    "type-fest": "^4.26.1"
+  },
+  "name": "start",
+  "version": "1.0.0",
+  "description": "AboutAddingNoise",
+  "main": "searchindex.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["example", "starter", "project"],
+  "author": "Your Name or Organization",
+  "license": "ISC"
+}
