@@ -1,9 +1,15 @@
 {
   "devDependencies": {
+<<<<<<< HEAD
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "electron": "^33.0.2",
+    "markdownlint": "^0.36.1"
+=======
     "@babel/plugin-transform-private-property-in-object": "^7.21.11",
     "electron": "^33.0.2",
     "markdownlint": "^0.36.1",
     "electron-packager": "^15.4.0"
+>>>>>>> 89264042215e11af878c6113e29d632cbcfec83e
   },
   "dependencies": {
     "type-fest": "^4.26.1"
@@ -18,10 +24,14 @@
   },
   "scripts": {
     "start": "electron .",
+<<<<<<< HEAD
+    "test": "echo \"Error: no test specified\" && exit 1"
+=======
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "markdownlint README.md SECURITY.md",
     "build": "electron-packager . --platform=win32,darwin,linux",
     "clean": "rm -rf dist build *.tmp *.cache"
+>>>>>>> 89264042215e11af878c6113e29d632cbcfec83e
   },
   "keywords": ["example", "starter", "project"],
   "author": "Your Name or Organization",

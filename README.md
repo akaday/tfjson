@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+# tfjson
+=======
 # tfjson
 
 ## Description
@@ -24,3 +27,4 @@ npm start
 2. **Transforming JSON data:**
    - After opening a JSON file, you can apply transformations using the provided tools in the application.
    - Save the transformed data by clicking on the "Save File" button.
+>>>>>>> 89264042215e11af878c6113e29d632cbcfec83e
